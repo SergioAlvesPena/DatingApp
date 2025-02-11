@@ -1,3 +1,4 @@
+import { NgFor } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { Component, inject, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
@@ -12,7 +13,7 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent implements OnInit{
   http = inject(HttpClient)
   title = 'DattingApp';
-  users: any
+  users: any;
 
   ngOnInit(): void {
     this.http.get('https://localhost:5001/api/users/getusers').subscribe({
