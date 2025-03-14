@@ -9,3 +9,9 @@
     border-top: none;
 
 }
+
+.card-footer{
+    padding: 10px 15px;
+    background-color: #fff;
+    border-top: none;
+}
