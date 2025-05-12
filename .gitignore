@@ -353,3 +353,5 @@ MigrationBackup/
 #Secrets and Others
 appsettings.json
 appsettings.Development.json
+API/appsettings.json
+API/appsettings.Development.json
